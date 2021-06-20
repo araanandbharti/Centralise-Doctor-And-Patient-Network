@@ -1,0 +1,94 @@
+.body1
+{
+    /* background-image: linear-gradient(
+45deg
+, #6bd459, #b3e8bf6e); */
+    margin-inline: 25%;
+    /* margin-top: 70px; */
+    padding: 40px;
+    border: solid 2px #bfbfbf;
+}
+
+.logo
+{
+
+    margin-bottom: 8px;
+}
+.logo_img
+{
+    display: block;
+    margin-inline: auto;
+    width: 100%;
+}
+
+.login
+{
+    margin-top: auto;
+    background-image: aliceblue;
+    background-image: linear-gradient( 
+45deg
+ , #13b30a, #020202bf);
+    /* margin-top: 13px; */
+    padding-top: 30px;
+    border-radius: 15px;
+    padding-inline: 25px;
+    padding-bottom: 20px;
+
+}
+.login_content
+{
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.login1
+{
+    width: 90%;
+    padding: 5px;
+    font-size: 18px;
+}
+.submit
+{
+    text-align: center;
+
+}
+.button
+{
+    font-size: 15px;
+    /* border: 20px; */
+    border-radius: 10px;
+    padding: 5px;
+    /* border-bottom-color: white; */
+    border-color: white;
+    padding-inline: 40px;
+
+}
+.button:hover
+{
+    font-size: 14px;
+    padding-inline: 30px;
+    cursor: pointer;
+}
+.creat_new_account
+{
+    margin-top: 15px;
+
+}
+.creat
+{
+    text-decoration: none;
+    /* margin-inline: auto; */
+    display: block;
+    /* margin-inline: 30%; */
+    /* padding: 53px; */
+    font-size: 22px;
+    text-align: center;
+    color: white;
+
+}
+.creat:hover
+{
+    font-size:20px ;
+}
