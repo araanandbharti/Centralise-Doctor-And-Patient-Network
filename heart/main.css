@@ -1,0 +1,131 @@
+.bar{
+  width: 50px;
+  height: 6px;
+  background-color: black;
+  margin: 10px 0;
+}
+
+body
+{
+
+
+
+}
+.history
+{
+  width: 20%;
+  float: left;
+  height: 600px;
+  /* background-color: aquamarine; */
+}
+.h_btm
+{
+  margin: 20% 10%;
+
+}
+.h_slide
+{
+/* display: none; */
+
+}
+.h_cont
+{
+
+
+}
+.h_cont_a
+{
+
+  text-decoration: none;
+  font-size: 20px;
+}
+.main_cont
+{
+  width: 60%;
+  float: left;
+  /* background-color: cadetblue; */
+
+}
+.logo
+{
+
+
+}
+.logo_img
+{
+  max-width: 100%;
+    /* margin-inline: 29%; */
+    display: block;
+    margin: auto;
+    height: 140px;
+}
+.search
+{
+  
+  /* display: block; */
+  margin: 8% 20%;
+
+}
+.search1
+{
+
+
+}
+.searchby
+{
+  width: 50%;
+  float: left;
+}
+
+}
+.search_cont1
+{
+
+
+}
+.search_btn
+{
+
+
+}
+.search_img
+{
+  display: block;
+  /* max-width: 50%; */
+  /* margin-inline: 50px; */
+  margin: 0 auto;
+  /* width: 31px; */
+  height: 33px;
+}
+.profile_complete
+{
+     /* background-color: aqua; */
+     width: 15%;
+     float: right;
+}
+.profile
+{
+
+
+}
+.profile_cont
+{
+
+
+}
+.profile_cont1
+{
+
+
+}
+.profile_img
+{
+  max-width: 30%;
+  margin: 16px 0px
+}
+.profile_cont2
+{
+  text-decoration: none;
+  font-size: 17px;
+
+}
