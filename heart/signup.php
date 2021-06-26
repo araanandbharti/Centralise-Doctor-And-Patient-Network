@@ -19,7 +19,7 @@
         </div>
         <div class="login">
 
-            <form action="post_signup.php" method="post">
+            <form action="post_signup1.php" method="POST" enctype="multipart/form-data">
                 <div class="login_content">
                     <!-- <label for="userid">USER ID : </label> -->
                     <input type="text" id="user_name" name="user_name" placeholder="Full Name" class="login1">
@@ -47,27 +47,20 @@
                     <input type="password" id="user_password1" name="user_password1" placeholder="Re-enter Password"
                         class="login1">
                 </div>
-                <?php
-                    // if(isset($_POST['submit']))
-                    // {
-                    // $value1=$_POST['user_password'];
-                    // $value2=$_POST['user_password1'];
-                    // if($value1!= $value2) 
-                    // {
-                    // echo "<h2></h2>Password didn't match </h2>";
-                    // }
-                    // else
-                    // {
-                    //     header("Location: post_signup.php");
-                    // }}
-                ?>
+                
                 <div class="login_content">
                     <!-- <label for="userid">USER ID : </label> -->
                     <input type="text" id="user_id" name="user_id" placeholder="Your Id" class="login1">
                 </div>
 
+                <div class="login_content">
+                    <!-- <label for="userid">USER ID : </label> -->
+                    <input type="file" name="file" id="file" class="login1">
+                </div>
+
                 <div class="submit">
-                    <input type="submit" name="submit" value="Confirm" class="button">
+                    <!-- <input type="submit" name="submit" value="Confirm" class="button"> -->
+                    <button type="submit" name="submit">submit</button>
 
                 </div>
             </form>

@@ -1,0 +1,100 @@
+.body
+{
+
+}
+.doctor
+{
+
+    width: 50%;
+    /* align-items: center; */
+    margin: 10px auto;
+}
+.a
+{
+
+}
+.Basic
+{
+    font-size: 25px;
+    font-family: cursive;
+    background-color: grey;
+    color: white;
+    margin: 10px 0px;
+}
+.name
+{
+    width: 70%;
+    float: left;
+    margin-left: 12px;
+}
+.fees
+{
+
+}
+.b
+{
+    overflow: auto;
+    margin: 20px 0px;
+}
+.image
+{
+    width: 40%;
+    float: left;
+
+}
+.image_cont
+{
+    width: 60%;
+
+}
+.specialist
+{
+
+
+}
+.specialist_heading
+{
+
+
+}
+.specialist_cont
+{
+
+
+}
+.c
+{
+    margin: 20px 0px;
+    overflow: auto;
+}
+.address
+{
+
+
+}
+.address_heading
+{
+    /* width: 20%;
+    float: left; */
+
+}
+.address_content
+{
+
+
+}
+.d
+{
+    margin: 20px 0px;
+
+}
+.about
+{
+
+
+}
+.h4
+{
+    margin: 0px;
+    background-color: antiquewhite;
+}

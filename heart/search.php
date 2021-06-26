@@ -12,18 +12,18 @@
         $conn = mysqli_connect("localhost","root","","ek_kadam") or die("Connection failed");
         if($_GET["searchby"]=="name")
         {
-            echo "22  <br/> ";
+           
             $var= $_GET["search"];
 
-            echo "$var <br/>";
+            // echo "$var <br/>";
             $sql= "SELECT doc_name,	doc_address,fees FROM doctor where doc_name LIKE '%$var%' ";
         }
         else
         {
-            echo "33  <br/> ";
+            
             $var= $_GET["search"];
 
-            echo "$var <br/>";
+            // echo "$var <br/>";
             $sql= "SELECT doc_name,	doc_address,fees FROM doctor where doc_address LIKE '%$var%' ";
 
         }

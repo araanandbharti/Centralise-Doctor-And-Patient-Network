@@ -27,7 +27,7 @@
         </div>
         <div class="login">
             
-            <form action="post_login.php" method="post">
+            <form action="post_login.php" method="get">
                 <div class="login_content">
                     <!-- <label for="userid">USER ID : </label> -->
                     <input type="text" id="userid" name="userid" placeholder="User Id" class="login1">
@@ -46,20 +46,6 @@
                 <a href="signup.php" class="creat">Creat New Account</a>                    
                 
                 </div>
-
-            
-        <!-- 
-            // $sql = "SELECT * FROM patient WHERE pat_user_id = $_POST[userid] AND pat_code = $_POST[password]";
-            // $result = mysqli_query($conn,$sql);
-            // echo "$_POST[userid] $_POST[password] "
-            // $row1=mysqli_num_rows($result);
-            // if(mysqli_num_rows($result) > 0){
-            //     header("Location: main.php");
-            // }
-            // else{
-            //     echo "Wrong Password";
-            // }
-        ?> -->
 
         </div>
 
