@@ -200,7 +200,7 @@
                     <a href="edit_profile.php" class="profile_cont2">Edit Your Detail</a>
                 </div>
                 <div class="profile_cont1">
-                    <a href="edit_profile-pic.html" class="profile_cont2">Change Your Pic</a>
+                    <a href="edit_profile_pic.html" class="profile_cont2">Change Your Pic</a>
                 </div>
                 <div class="profile_cont1">
                     <a href="login.php" class="profile_cont2">Log Out</a>
